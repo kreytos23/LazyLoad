@@ -1,3 +1,44 @@
 @import 'tailwindcss/dist/base.css';
 @import 'tailwindcss/dist/components.css';
 @import 'tailwindcss/dist/utilities.css';
+
+* {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: indianred;
+}
+.buttons {
+    font-family:  Helvetica,Arial, sans-serif;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    height: 8rem;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.buttons button {
+    margin: 0 0.5rem;
+    width: 18rem;
+    height: 3rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    outline: none;
+}
+
+#clean {
+    color: indigo;
+    background-color: beige;
+}
+
+#addImg {
+    color: beige;
+    background-color: indigo;
+}
+
+img {
+    width: 300px;
+}
